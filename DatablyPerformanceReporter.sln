@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{717C299A-61A2-43D9-B927-727C3DA7FBC2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "testing", "testing", "{A8F5E72A-1FC1-4C44-B003-879D4C0B95E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatablyPerformanceReporter", "DatablyPerformanceReporter\DatablyPerformanceReporter.csproj", "{94FDBC87-208B-4F14-B5BE-144DB6523E01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatablyPerformanceReporter.UnitTests", "DatablyPerformanceReporter.UnitTests\DatablyPerformanceReporter.UnitTests.csproj", "{851374A8-18E5-4808-B3F5-2C5D9BC30962}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{94FDBC87-208B-4F14-B5BE-144DB6523E01} = {717C299A-61A2-43D9-B927-727C3DA7FBC2}
+		{851374A8-18E5-4808-B3F5-2C5D9BC30962} = {A8F5E72A-1FC1-4C44-B003-879D4C0B95E9}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94FDBC87-208B-4F14-B5BE-144DB6523E01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94FDBC87-208B-4F14-B5BE-144DB6523E01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94FDBC87-208B-4F14-B5BE-144DB6523E01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94FDBC87-208B-4F14-B5BE-144DB6523E01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{851374A8-18E5-4808-B3F5-2C5D9BC30962}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{851374A8-18E5-4808-B3F5-2C5D9BC30962}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{851374A8-18E5-4808-B3F5-2C5D9BC30962}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{851374A8-18E5-4808-B3F5-2C5D9BC30962}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

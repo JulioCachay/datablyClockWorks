@@ -1,0 +1,12 @@
+C:\Users\Julio\Documents\repos\datablyPerformanceReporter\DatablyPerformanceReporter\bin\Debug\net7.0\DatablyPerformanceReporter.deps.json
+C:\Users\Julio\Documents\repos\datablyPerformanceReporter\DatablyPerformanceReporter\bin\Debug\net7.0\DatablyPerformanceReporter.dll
+C:\Users\Julio\Documents\repos\datablyPerformanceReporter\DatablyPerformanceReporter\bin\Debug\net7.0\DatablyPerformanceReporter.pdb
+C:\Users\Julio\Documents\repos\datablyPerformanceReporter\DatablyPerformanceReporter\obj\Debug\net7.0\DatablyPerformanceReporter.csproj.AssemblyReference.cache
+C:\Users\Julio\Documents\repos\datablyPerformanceReporter\DatablyPerformanceReporter\obj\Debug\net7.0\DatablyPerformanceReporter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Julio\Documents\repos\datablyPerformanceReporter\DatablyPerformanceReporter\obj\Debug\net7.0\DatablyPerformanceReporter.AssemblyInfoInputs.cache
+C:\Users\Julio\Documents\repos\datablyPerformanceReporter\DatablyPerformanceReporter\obj\Debug\net7.0\DatablyPerformanceReporter.AssemblyInfo.cs
+C:\Users\Julio\Documents\repos\datablyPerformanceReporter\DatablyPerformanceReporter\obj\Debug\net7.0\DatablyPerformanceReporter.csproj.CoreCompileInputs.cache
+C:\Users\Julio\Documents\repos\datablyPerformanceReporter\DatablyPerformanceReporter\obj\Debug\net7.0\DatablyPerformanceReporter.dll
+C:\Users\Julio\Documents\repos\datablyPerformanceReporter\DatablyPerformanceReporter\obj\Debug\net7.0\refint\DatablyPerformanceReporter.dll
+C:\Users\Julio\Documents\repos\datablyPerformanceReporter\DatablyPerformanceReporter\obj\Debug\net7.0\DatablyPerformanceReporter.pdb
+C:\Users\Julio\Documents\repos\datablyPerformanceReporter\DatablyPerformanceReporter\obj\Debug\net7.0\ref\DatablyPerformanceReporter.dll
