@@ -3,18 +3,27 @@
 public class ReportCompositeTests
 {
     private ReportComposite CreateReportCompositeLeaf(
+        string description)
+    {
+
+        return new(null, description);
+    }
+    private ReportComposite CreateReportCompositeLeaf(
         string description, int ellapsedMs)
     {
-        var ellapsed = TimeSpan.FromMilliseconds(ellapsedMs);
+        var elapsed = TimeSpan.FromMilliseconds(ellapsedMs);
 
-        return new(null, description, ellapsed);
+        var result = new ReportComposite(null, description);
+        
+        result.SetElapsed(elapsed);
+
+        return result;
     }
 
-    private ReportComposite CreateReportCompositeLeaf(int ellapsedMs)
+    private ReportComposite CreateReportCompositeLeaf(int elapsedMs)
     {
-        var ellapsed = TimeSpan.FromMilliseconds(ellapsedMs);
 
-        return new(null, Guid.NewGuid().ToString(), ellapsed);
+        return CreateReportCompositeLeaf("", elapsedMs);
     }
 
     [Fact]
@@ -24,12 +33,27 @@ public class ReportCompositeTests
         
         // ************ ACT ************
 
-        var sut = CreateReportCompositeLeaf("some request", 500);
+        var sut = new ReportComposite(null, "some request");
         
         // ************ ASSERT ************
         
         Assert.Equal("some request", sut.Description);
-        Assert.Equal(500, sut.Elapsed.TotalMilliseconds);
+    }
+
+    [Fact]
+    public void CanSetElapsed()
+    {
+        // ************ ARRANGE ************
+
+        var sut = new ReportComposite(null, "");
+
+        // ************ ACT ************
+        
+        sut.SetElapsed(TimeSpan.FromSeconds(1));
+
+        // ************ ASSERT ************
+        
+        Assert.Equal(sut.Elapsed, TimeSpan.FromSeconds(1));
     }
     
     [Fact]

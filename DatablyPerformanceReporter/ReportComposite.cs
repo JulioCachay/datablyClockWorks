@@ -4,13 +4,18 @@ namespace DatablyPerformanceReporter;
 
 public class ReportComposite
 {
-    public ReportComposite(ReportComposite? parent, string description, TimeSpan elapsed)
+  
+    public ReportComposite(ReportComposite? parent, string description)
     {
         Parent = parent;
         Description = description;
-        Elapsed = elapsed;
+        Elapsed = TimeSpan.Zero;
     }
 
+    public void SetElapsed(TimeSpan elapsed)
+    {
+        Elapsed = elapsed;
+    }
     public void AddChild(ReportComposite child)
     {
         child.Parent = this;
@@ -18,7 +23,7 @@ public class ReportComposite
     }
     public ReportComposite? Parent { get; set; }
     public string Description { get; }
-    public TimeSpan Elapsed { get; }
+    public TimeSpan Elapsed { get; private set; }
 
     public decimal TimeSlicePercentage => CalculateTimeSlicePercentage();
 
